@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CADF16161ECD7B1C00B14A0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CADF16151ECD7B1C00B14A0B /* ViewController.m */; };
+		CADF16191ECD7B1C00B14A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADF16171ECD7B1C00B14A0B /* Main.storyboard */; };
+		CADF161B1ECD7B1C00B14A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADF161A1ECD7B1C00B14A0B /* Assets.xcassets */; };
+		CADF161E1ECD7B1C00B14A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADF161C1ECD7B1C00B14A0B /* LaunchScreen.storyboard */; };
+		CADF16311ECD7E7E00B14A0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CADF162E1ECD7E7E00B14A0B /* AppDelegate.m */; };
+		CADF16321ECD7E7E00B14A0B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CADF162F1ECD7E7E00B14A0B /* Info.plist */; };
+		CADF16331ECD7E7E00B14A0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CADF16301ECD7E7E00B14A0B /* main.m */; };
+		CADF16361ECD7F7A00B14A0B /* HCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CADF16351ECD7F7A00B14A0B /* HCNavigationController.m */; };
+		CADF16391ECD7F9400B14A0B /* HCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CADF16381ECD7F9400B14A0B /* HCTabBarController.m */; };
+		CADF163C1ECD7FAC00B14A0B /* HCNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CADF163B1ECD7FAC00B14A0B /* HCNavigationBar.m */; };
+		CADF163F1ECD7FBA00B14A0B /* HCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CADF163E1ECD7FBA00B14A0B /* HCTabBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CADF160B1ECD7B1C00B14A0B /* HCFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADF16141ECD7B1C00B14A0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CADF16151ECD7B1C00B14A0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CADF16181ECD7B1C00B14A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CADF161A1ECD7B1C00B14A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CADF161D1ECD7B1C00B14A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CADF162D1ECD7E7E00B14A0B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CADF162E1ECD7E7E00B14A0B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CADF162F1ECD7E7E00B14A0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADF16301ECD7E7E00B14A0B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CADF16341ECD7F7A00B14A0B /* HCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNavigationController.h; sourceTree = "<group>"; };
+		CADF16351ECD7F7A00B14A0B /* HCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNavigationController.m; sourceTree = "<group>"; };
+		CADF16371ECD7F9400B14A0B /* HCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCTabBarController.h; sourceTree = "<group>"; };
+		CADF16381ECD7F9400B14A0B /* HCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCTabBarController.m; sourceTree = "<group>"; };
+		CADF163A1ECD7FAC00B14A0B /* HCNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNavigationBar.h; sourceTree = "<group>"; };
+		CADF163B1ECD7FAC00B14A0B /* HCNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNavigationBar.m; sourceTree = "<group>"; };
+		CADF163D1ECD7FBA00B14A0B /* HCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCTabBar.h; sourceTree = "<group>"; };
+		CADF163E1ECD7FBA00B14A0B /* HCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCTabBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CADF16081ECD7B1C00B14A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CADF16021ECD7B1C00B14A0B = {
+			isa = PBXGroup;
+			children = (
+				CADF160D1ECD7B1C00B14A0B /* HCFM */,
+				CADF160C1ECD7B1C00B14A0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CADF160C1ECD7B1C00B14A0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADF160B1ECD7B1C00B14A0B /* HCFM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADF160D1ECD7B1C00B14A0B /* HCFM */ = {
+			isa = PBXGroup;
+			children = (
+				CADF16251ECD7D0C00B14A0B /* Classes */,
+				CADF16261ECD7D1A00B14A0B /* Other */,
+				CADF16141ECD7B1C00B14A0B /* ViewController.h */,
+				CADF16151ECD7B1C00B14A0B /* ViewController.m */,
+				CADF160E1ECD7B1C00B14A0B /* Supporting Files */,
+			);
+			path = HCFM;
+			sourceTree = "<group>";
+		};
+		CADF160E1ECD7B1C00B14A0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CADF162C1ECD7E1800B14A0B /* Resource */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CADF16251ECD7D0C00B14A0B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CADF16291ECD7DDE00B14A0B /* MainModule */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CADF16261ECD7D1A00B14A0B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CADF16281ECD7DCD00B14A0B /* System */,
+				CADF16271ECD7DBB00B14A0B /* BaseClasses */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CADF16271ECD7DBB00B14A0B /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CADF16401ECD825400B14A0B /* Category */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		CADF16281ECD7DCD00B14A0B /* System */ = {
+			isa = PBXGroup;
+			children = (
+				CADF162D1ECD7E7E00B14A0B /* AppDelegate.h */,
+				CADF162E1ECD7E7E00B14A0B /* AppDelegate.m */,
+				CADF162F1ECD7E7E00B14A0B /* Info.plist */,
+				CADF16301ECD7E7E00B14A0B /* main.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		CADF16291ECD7DDE00B14A0B /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				CADF162A1ECD7E0900B14A0B /* Controller */,
+				CADF162B1ECD7E0900B14A0B /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		CADF162A1ECD7E0900B14A0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CADF16341ECD7F7A00B14A0B /* HCNavigationController.h */,
+				CADF16351ECD7F7A00B14A0B /* HCNavigationController.m */,
+				CADF16371ECD7F9400B14A0B /* HCTabBarController.h */,
+				CADF16381ECD7F9400B14A0B /* HCTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CADF162B1ECD7E0900B14A0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CADF163A1ECD7FAC00B14A0B /* HCNavigationBar.h */,
+				CADF163B1ECD7FAC00B14A0B /* HCNavigationBar.m */,
+				CADF163D1ECD7FBA00B14A0B /* HCTabBar.h */,
+				CADF163E1ECD7FBA00B14A0B /* HCTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CADF162C1ECD7E1800B14A0B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CADF16171ECD7B1C00B14A0B /* Main.storyboard */,
+				CADF161A1ECD7B1C00B14A0B /* Assets.xcassets */,
+				CADF161C1ECD7B1C00B14A0B /* LaunchScreen.storyboard */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		CADF16401ECD825400B14A0B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CADF160A1ECD7B1C00B14A0B /* HCFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADF16221ECD7B1C00B14A0B /* Build configuration list for PBXNativeTarget "HCFM" */;
+			buildPhases = (
+				CADF16071ECD7B1C00B14A0B /* Sources */,
+				CADF16081ECD7B1C00B14A0B /* Frameworks */,
+				CADF16091ECD7B1C00B14A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCFM;
+			productName = HCFM;
+			productReference = CADF160B1ECD7B1C00B14A0B /* HCFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CADF16031ECD7B1C00B14A0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "北京大账房信息技术有限公司";
+				TargetAttributes = {
+					CADF160A1ECD7B1C00B14A0B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ESEPHFC33D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CADF16061ECD7B1C00B14A0B /* Build configuration list for PBXProject "HCFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CADF16021ECD7B1C00B14A0B;
+			productRefGroup = CADF160C1ECD7B1C00B14A0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADF160A1ECD7B1C00B14A0B /* HCFM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CADF16091ECD7B1C00B14A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADF16321ECD7E7E00B14A0B /* Info.plist in Resources */,
+				CADF161E1ECD7B1C00B14A0B /* LaunchScreen.storyboard in Resources */,
+				CADF161B1ECD7B1C00B14A0B /* Assets.xcassets in Resources */,
+				CADF16191ECD7B1C00B14A0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CADF16071ECD7B1C00B14A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADF163C1ECD7FAC00B14A0B /* HCNavigationBar.m in Sources */,
+				CADF16331ECD7E7E00B14A0B /* main.m in Sources */,
+				CADF163F1ECD7FBA00B14A0B /* HCTabBar.m in Sources */,
+				CADF16311ECD7E7E00B14A0B /* AppDelegate.m in Sources */,
+				CADF16361ECD7F7A00B14A0B /* HCNavigationController.m in Sources */,
+				CADF16391ECD7F9400B14A0B /* HCTabBarController.m in Sources */,
+				CADF16161ECD7B1C00B14A0B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CADF16171ECD7B1C00B14A0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADF16181ECD7B1C00B14A0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CADF161C1ECD7B1C00B14A0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADF161D1ECD7B1C00B14A0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CADF16201ECD7B1C00B14A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CADF16211ECD7B1C00B14A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CADF16231ECD7B1C00B14A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESEPHFC33D;
+				INFOPLIST_FILE = "$(SRCROOT)/HCFM/Other/System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xwwy.cn.HCFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CADF16241ECD7B1C00B14A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESEPHFC33D;
+				INFOPLIST_FILE = "$(SRCROOT)/HCFM/Other/System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xwwy.cn.HCFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CADF16061ECD7B1C00B14A0B /* Build configuration list for PBXProject "HCFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADF16201ECD7B1C00B14A0B /* Debug */,
+				CADF16211ECD7B1C00B14A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADF16221ECD7B1C00B14A0B /* Build configuration list for PBXNativeTarget "HCFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADF16231ECD7B1C00B14A0B /* Debug */,
+				CADF16241ECD7B1C00B14A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CADF16031ECD7B1C00B14A0B /* Project object */;
+}
